@@ -1,50 +1,104 @@
+<a name="readme-top"></a>
+
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+# 📖 Capstone 1: Microverse HTML, CSS, JS Capstone Project
+ <a name="about-project"></a>
+
+
 # Microverse HTML, CSS, JS Capstone Project
-"This website is an announcement for the upcoming entrepreneurship and technology conference. The conference will be held within Yıldız Technical University Technology Club. General information about the club and the conference is given throughout the site. Speakers are introduced in a separate section. In addition, a form page is defined for participants who want to buy tickets."
+"This website is an announcement for the upcoming congress. The congress will be held within Yıldız Technical University Technology Club. General information about the club and the conference is given throughout the site. Speakers are introduced in a separate section. In addition, a form page is defined for participants who want to buy tickets."
 
 The website content is fictional. It was created using HTML, CSS and JavaScript to meet the requirements defined within the scope of the Microverse Capstone project. In particular, I would like to point out that I built this website completely from scratch.
 
 
-![web](https://github.com/microverseinc/curriculum-html-css/blob/main/capstone/images/conference_page.png)
-
-
 It is built as a part of Microverse Web Developer Course. The mobile-first approach was used in this project.
 
-## Built With
+## 🛠 Built With <a name="built-with"></a>
+Html <br>
+css <br>
+Js <br>
 
--HTML
--CSS
--Javascript
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+**Link to online version of My Portfolio**
+https://mumo-esther.github.io/Desktop-version-Portfolio/
+
+## 💻 Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.
+Git clone https://github.com/mumo-esther/Desktop-version-Portfolio.git
+### Prerequisites
+
+In order to run this project you need:
+ git clone then open in your live server
+
+### Setup
+
+Clone this repository to your desired folder:
+  cd my-folder
+  git clone https://github.com/mumo-esther/Desktop-version-Portfolio.git
 
 
-## Live Demo
+### Run tests
 
-[Live Demo Link](https://tacettinkustu.github.io/microverse-capstone-1/)
+To run tests, run the following command:
+  - npx hint .
+--->
 
-## Presentation of Project
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[Loom Video Link](https://www.loom.com/share/a191174d83aa4fceb67c36b660a692ba)
+## 👥 Authors <a name="authors"></a>
 
-## Project Description
+👤 **Author**
 
-The project you are going to build is based on an *online website for a conference*. We provide some design guidelines for you to create the website. It's very important the you personalize your project so that you have something unique in your portfolio to share with potential employers during job searching.
+- GitHub:https://github.com/mumo-esther/mumo-esther
+- Twitter:https://twitter.com/EstherMawioo
+- LinkedIn: https://www.linkedin.com/in/esther-mawioo-58b636225/
 
-## Getting Started
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To get a local copy up and running usual steps.
+## 🤝 Contributing <a name="contributing"></a>
 
+Contributions, issues, and feature requests are welcome!
 
-## Author
-👤 **Tacettin Kustu**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- GitHub: [@tacettinkustu](https://github.com/tacettinkustu)
-- LinkedIn: [tacettinkustu](https://www.linkedin.com/in/tacettin-k%C3%BCst%C3%BC-aaba721b5/)
+## KEY FEATURES
+- Home page
+- About page
 
-## UI Designer
+## ⭐️ Show your support <a name="support"></a>
 
-Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07). But, I personalized for my purposes.
+If you like this project you can give it a ⭐️.
 
-Feel free to check the [issues page](../../issues/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Show your support
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Give a ⭐️ if you like this project!
+I would like to thank all my coding partners who helped me in understanding linters
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/mumo-esther/Desktop-version-Portfolio/blob/main/LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
