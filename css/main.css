@@ -1,0 +1,911 @@
+/* Global css */
+/* Text */
+
+.text-center {
+  text-align: center;
+}
+
+@font-face {
+  /* Cocogoose Bold */
+  font-family: "cocogoose";
+  src: url("../utils/fonts/cocogoose/Cocogoose.ttf");
+}
+
+@font-face {
+  /* Cocogoose Light */
+  font-family: "cocogoose-light";
+  src: url("../utils/fonts/cocogoose/Cocogoose-light.ttf");
+}
+
+.heading-small {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.heading-medium {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.heading-big {
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+
+/* Text Colors */
+.special-color {
+  background: url("https://wallpaperaccess.com/full/1818031.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.light-black {
+  color: #272a31;
+}
+
+.dark-orange {
+  color: #ec5242;
+}
+
+.light-grey {
+  color: #d3d3d3;
+}
+
+/* Background Colors */
+
+.bg-light-black {
+  background: #272a31;
+}
+
+.bg-dark-orange {
+  background: #ec5242;
+}
+
+.bg-light-grey {
+  background: rgba(250, 247, 247, 0.829);
+}
+
+/* Container */
+.container {
+  width: 100%;
+  padding: 5%;
+}
+
+/* Layouts */
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Buttons */
+.btn {
+  width: 300px;
+  height: 60px;
+  background-color: #ec5242;
+  color: #d3d3d3;
+  font-size: 1.25rem;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+/* Horizontal Line */
+.horizontal-line {
+  border-width: 0;
+  height: 2px;
+  background-color: #ec5242;
+  width: 15%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  opacity: 0.9;
+}
+
+.full-horizontal-line {
+  border-width: 0;
+  height: 1px;
+  background-color: #272a31;
+  width: 100%;
+  opacity: 0.6;
+  margin: 5% 0;
+}
+
+/* Margins */
+.margin-top {
+  margin-top: 5%;
+}
+
+.margin-top-big {
+  margin-top: 10%;
+}
+
+.margin-bottom {
+  margin-bottom: 5%;
+}
+
+.margin-vertical {
+  margin: 5% 0;
+}
+
+
+/* Main css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+  background-color: #fff;
+}
+
+body {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+header {
+  width: 100%;
+}
+
+/* Upperside */
+.upperside {
+  display: none;
+}
+
+/* Nav Menu */
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.nav-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/928/527/680/triangle-abstract-hd-colorful-wallpaper-preview.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+nav h2 {
+  font-family: "cocogoose-light", sans-serif;
+  letter-spacing: 1.5px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  justify-self: center;
+  align-self: center;
+}
+
+.hamburger-menu {
+  font-size: 30px;
+  font-weight: 900;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  opacity: 0.98;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #ec5242;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 1.5rem;
+  right: 3rem;
+  font-size: 4rem;
+}
+
+.desktop-navbar {
+  display: none;
+}
+
+/* First Section */
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.main-content-headers h2 {
+  width: 100%;
+  margin: 3% 0;
+}
+
+.main-content-headers h1 {
+  width: 100%;
+}
+
+.container h1 {
+  font-family: "cocogoose", sans-serif;
+  font-size: 1.85rem;
+  letter-spacing: 1.5px;
+}
+
+.year {
+  width: 100%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 900;
+  font-size: 2.1rem;
+  margin-bottom: 15%;
+}
+
+.header-content {
+  border: 1px solid #d3d3d3;
+  background-color: #fff;
+  padding: 3%;
+  line-height: 1.5rem;
+}
+
+.main-content .text-center h1 {
+  margin-top: 5%;
+}
+
+.main-content-headers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-logo-img {
+  object-fit: cover;
+}
+
+.bg-header-image {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-size: contain;
+}
+
+.bg-header-image-rotate {
+  transform: rotate(180deg);
+  top: 0;
+  right: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: -2;
+  background-size: cover;
+}
+
+/* First Section Info */
+.infos {
+  margin: 10% 0;
+}
+
+.date {
+  margin-top: 100px;
+}
+
+/* Main Program */
+.main-program {
+  background-color: #272a31;
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  opacity: 0.9;
+}
+
+.main-program-header {
+  color: white;
+}
+
+.program-item {
+  background-color: #d3d3d317;
+  z-index: -40;
+  opacity: 0.7;
+  margin: 2% 0;
+  padding: 3%;
+  border: 5px #fff;
+}
+
+.item-icon {
+  width: 12%;
+}
+
+.item-header {
+  width: 28%;
+  color: #ec5242;
+}
+
+.item-content {
+  width: 60%;
+  color: #fff;
+}
+
+.main-btn {
+  margin: 5% 0;
+}
+
+.see-program {
+  color: white;
+  display: none;
+}
+
+/* Featured Speakers */
+.featured-speakers-header {
+  margin-top: 10%;
+}
+
+.speaker-image {
+  height: 120px;
+  width: 120px;
+  margin: 3%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.speakers-list {
+  opacity: 0.8;
+}
+
+.speaker-heading {
+  margin-bottom: 2%;
+}
+
+.speaker-infos {
+  width: 67%;
+  margin: 3%;
+  margin-left: 0;
+}
+
+.speakers-btn {
+  width: 80%;
+  border: #272a31 solid 1px;
+  background-color: #fff;
+  color: #272a31;
+  margin: 5% 0;
+}
+
+.down-arrow {
+  color: #ec5242;
+  margin: 0 5px;
+}
+
+.speakers-display {
+  display: none;
+}
+
+/* Past Activities */
+.past-activities {
+  margin: 5% 0;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.activities {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.past-content {
+  width: 80%;
+  margin-top: 5%;
+  font-size: 1.1rem;
+}
+
+.past-first-activity {
+  width: 80%;
+  min-height: 200px;
+  background: url("https://monbien-events.com/wp-content/uploads/2018/03/conference_crop.jpg");
+  background-size: cover;
+  position: relative;
+  opacity: 0.8;
+  margin: 5% 0;
+}
+
+.first-activity-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ec5242;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.past-second-activity {
+  width: 80%;
+  min-height: 200px;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREUyl4_ZFKff7UxDV8HlwuMtoVE_UqMxLljuhd3Ycm5QrvTOVNjYIhBMQaaqa2wxCSkIM&usqp=CAU");
+  background-size: cover;
+  position: relative;
+  opacity: 0.8;
+  margin: 5% 0;
+}
+
+.act:hover {
+  opacity: 0.7;
+}
+
+/* About Us */
+.about-us {
+  width: 100%;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  opacity: 0.9;
+}
+
+.family-photo {
+  width: 100%;
+  margin: 5%;
+}
+
+.about-us-content {
+  margin: 0 5%;
+  padding: 3%;
+}
+
+/* Partners */
+.partners {
+  width: 100%;
+  opacity: 0.9;
+  margin: 5% 0;
+}
+
+.partners-heading {
+  margin-top: 10%;
+}
+
+.partners-list {
+  flex-wrap: wrap;
+}
+
+.list-item-container {
+  margin: 10% 5%;
+}
+
+.list-item-container:hover {
+  opacity: 0.7;
+}
+
+.list-item-container::marker {
+  color: #272a31;
+}
+
+.list-item {
+  width: 80px;
+  height: 80px;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  margin: 5% 0;
+}
+
+.contact {
+  margin-top: 5%;
+}
+
+.uon-logo {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border: 50%;
+}
+
+.contact-details {
+  width: 100%;
+  margin: 5% 0;
+  justify-content: space-around;
+}
+
+/* desktop css */
+@media(min-width:768px) {
+  html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body {
+    max-width: 1400px;
+  }
+  
+  /* Upperside */
+  .upperside {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #272a31;
+    width: 100%;
+    height: 30px;
+    opacity: 0.9;
+  }
+  
+  .upperside-ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5%;
+  }
+  
+  .upperside-item:hover {
+    opacity: 0.7;
+  }
+  
+  /* Navbar */
+  nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .hamburger-menu-display {
+    display: none;
+  }
+  
+  .desktop-navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #272a31;
+    padding: 10px 5%;
+  }
+  
+  .navbar-ul {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .desktop-nav-link {
+    color: #272a31;
+    font-weight: 600;
+  }
+  
+  .desktop-navbar ul li {
+    margin: 0 1%;
+    white-space: nowrap;
+  }
+  
+  .desktop-navbar ul li:hover {
+    opacity: 0.7;
+  }
+  
+  .main-logo:hover {
+    opacity: 0.7;
+  }
+  
+  .main-logo-img {
+    width: 100px;
+    height: 100px;
+    opacity: 0.8;
+    border: 50%;
+  }
+  
+  /* First Section */
+  .main-content-headers {
+    width: 80%;
+  }
+  
+  .main-content-headers h2 {
+    font-size: 2.5rem;
+  }
+  
+  .main-content-headers h1 {
+    font-size: 3.5rem;
+  }
+  
+  .year {
+    font-size: 4.5rem;
+    margin-bottom: 5%;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-content {
+    width: 80%;
+    font-size: 1.25rem;
+  }
+  
+  .infos {
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+  
+  .bg-header-image {
+    width: 80%;
+  }
+  
+  .bg-header-image-rotate {
+    width: 80%;
+  }
+  
+  .date {
+    font-size: 2rem;
+  }
+  
+  .location {
+    font-size: 1.25rem;
+  }
+  
+  /* Main Program */
+  .program-items {
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .program-item {
+    opacity: 0.8;
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+  
+  .item-icon {
+    width: auto;
+    margin: 20px 0;
+    color: #fff;
+  }
+  
+  .item-header {
+    width: auto;
+  }
+  
+  .item-content {
+    width: auto;
+    margin: 20px 0;
+    color: #fff;
+  }
+  
+  .main-btn {
+    display: none;
+  }
+  
+  .see-program {
+    display: block;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 5%;
+  }
+  
+  .see-program:hover {
+    opacity: 0.7;
+  }
+  
+  /* Speakers */
+  .speakers-btn {
+    display: none;
+  }
+  
+  .speakers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Partners */
+  .partners-heading {
+    margin-top: 5%;
+  }
+  
+  .partners-list {
+    flex-wrap: nowrap;
+  }
+  
+  .list-item {
+    width: 120px;
+    height: 120px;
+  }
+  
+  /* Contact */
+  .footer {
+    margin-top: 0;
+  }
+  
+  .contact-details {
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .contact {
+    margin-top: 0;
+  }
+  
+  .rights {
+    margin-top: 3%;
+  }
+  
+  .ytu-logo {
+    margin-right: 3%;
+  }
+  
+  .adress {
+    margin-left: 3%;
+  }
+  
+  /* About Us */
+  .horizontal-line {
+    width: 200px;
+    margin-top: 1%;
+  }
+  
+  .about-us {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  .margin-top-big {
+    margin-top: 5%;
+  }
+  
+  .family-photo {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  .about-us-content {
+    font-size: 1.25rem;
+  }
+  
+  /* Past Activities */
+  .past-activities {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .activities {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .past-content {
+    margin-top: 0;
+  }
+  
+  .act {
+    width: 40%;
+    font-size: 1.25rem;
+  }
+  
+  .past-first-activity {
+    width: 40%;
+    min-height: 300px;
+    background: url("https://monbien-events.com/wp-content/uploads/2018/03/conference_crop.jpg");
+    background-size: cover;
+    position: relative;
+    opacity: 0.8;
+    margin: 5% 0;
+  }
+  
+  .first-activity-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ec5242;
+    opacity: 0.8;
+    color: #fff;
+  }
+  
+  .past-second-activity {
+    width: 40%;
+    min-height: 300px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREUyl4_ZFKff7UxDV8HlwuMtoVE_UqMxLljuhd3Ycm5QrvTOVNjYIhBMQaaqa2wxCSkIM&usqp=CAU");
+    background-size: cover;
+    position: relative;
+    opacity: 0.8;
+    margin: 5% 0;
+  }
+  
+  /* Contact */
+  .contact-line {
+    margin-bottom: 2%;
+  }
+  
+  /* toggle for speakers */
+  .speakers-display {
+    display: flex;
+  } 
+}

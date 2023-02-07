@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="./utils/images/logo.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STEM Impact Congress - 2023</title>
+    <meta name="keywords" content="html, css, javascript" />
+    <meta
+      name="description"
+      content="YTU Technology and Entrepreneurship Conference - 2021"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700;800;900&display=swap"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Mobile CSS -->
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Desktop CSS -->
+    <link rel="stylesheet" media="(min-width:768px)" href="css/desktop.css" />
+  </head>
+  <body class="flex-column-center">
+    <div class="upperside">
+      <ul class="upperside-ul">
+        <li><i class="fab fa-facebook-f light-grey upperside-item"></i></li>
+        <li><i class="fab fa-twitter light-grey upperside-item"></i></li>
+        <li><a href="#" class="logout light-grey upperside-item">Logout</a></li>
+        <li><a href="#" class="mypage light-grey upperside-item">Mypage</a></li>
+        <li><a href="#" class="korean light-grey upperside-item">English</a></li>
+      </ul>
+    </div>
+    <header class="bg-light-grey flex-column-center">
+      <nav>
+        <div class="nav-bg"></div>
+        <div class="light-black hamburger-menu-display" onclick="openNav()">
+          <i class="fas fa-bars hamburger-menu"></i>
+        </div>
+        <div id="myNav" class="overlay bg-light-black">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <div class="overlay-content">
+            <a href="./index.html">Home</a>
+            <a href="#about-us" onclick="closeNav()">About Us</a>
+            <a href="#past-activities" onclick="closeNav()">Past Activities</a>
+            <a href="#contact" onclick="closeNav()">Contact</a>
+          </div>
+        </div>
+        <div class="desktop-navbar">
+          <a href="./index.html" class="main-logo"
+            ><img
+              src="./Assets/images/Stem logo.png"
+              alt="main logo"
+              class="main-logo-img"
+          /></a>
+          <ul class="navbar-ul">
+            <li>
+              <a href="./index.html" class="desktop-nav-link">Main Page</a>
+            </li>
+            <li>
+              <a href="#about-us" class="desktop-nav-link">About Us</a>
+            </li>
+            <li>
+              <a href="#past-activities" class="desktop-nav-link"
+                >Past Activities</a
+              >
+            </li>
+            <li><a href="#contact" class="desktop-nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <img
+          src="./Assets/images/wallpaperbetter.jpg"
+          alt="Background image"
+          class="bg-header-image"
+        />
+        <img
+          src="./Assets/images/wallpaperbetter.jpg"
+          alt="Background image"
+          class="bg-header-image-rotate"
+        />
+        <div class="main-content">
+          <div class="main-content-headers flex-column-center">
+            <h2 class="special-color text-center">"Who are we?"</h2>
+            <h1 class="special-color text-center">
+              SCIENCE, TECHNOLOGY, ENGINEERING & MATHEMATICS IMPACT
+            </h1>
+          </div>
+          <div class="header-content text-center margin-top-big">
+            <p>
+              STEM is an educational program developed to prepare primary and secondary students for college, graduate study and careers in the fields of science, technology, engineering and mathematics (STEM). In addition to subject-specific learning, STEM aims to foster inquiring minds, logical reasoning and collaboration skills.
+            </p>
+            <p>
+            <b><i> Never Stop Innovating </i></b>
+            </p>
+          </div>
+          <div class="infos">
+            <p class="location light-black text-center">
+              <i
+                >Please Contact Us with Email for any further questions about
+                this activity!</i
+              ><br /><b>info@stemk12.org</b>
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="about-us flex-column-center text-center" id="about-us">
+      <h2 class="about-us-head light-black heading-medium margin-top-big">
+        About Us
+      </h2>
+      <hr class="horizontal-line text-center" />
+      <img
+        src="./Assets/images/about us background.PNG"
+        alt="about us community photo"
+        class="family-photo"
+      />
+      <div class="about-us-content">
+        <p class="about-us-paragraph">
+          These seriously fun congresses help students develop and apply a conceptual understanding of science, technology, engineering, and math by solving puzzles, designing solutions to novel problems, and creating new inventions. It's important for students of all ages to engage in this type of critical thinking to prepare for college and career. Check out our list of tools that get students coding robots, engineering new creations, playing with games and simulations, and gathering and analyzing scientific data. 
+        </p>
+        <h4>
+          <br />
+          What do we promise to STEM enthusiasts?
+        </h4>
+        <p>
+          <br />
+          The nub of the challenge will be to design a new academic day to allow gifted students to comfortably and confidently “linger and learn” at the interfaces between those tectonic plates, exploring and discussing potential new ideas…and learning how to solve problems in a blended, mediated way. Gifted students need time to think and formulate questions, to learn from each other. Educators need to respond to this challenge, to break away from the 140-year old pizza-pie slice model of the academic day. Teacher colleges beware, big change is coming. Can you not feel the winds of change blowing thru the hallways…a breeze perhaps now, but destined soon to be gale force in strength?
+        </p>
+      </div>
+      <hr class="full-horizontal-line" />
+    </section>
+    <section class="past-activities" id="past-activities">
+      <h2 class="past-heading light-black heading-medium">
+        See the past Club Activities
+      </h2>
+      <hr class="horizontal-line text-center" />
+      <p class="past-content light-black text-center">
+        Take a look at the last two years activities which took place in
+        Nairobi
+      </p>
+      <div class="activities">
+        <div class="past-first-activity act">
+          <div class="first-activity-content flex-column-center">
+            <h3>2021</h3>
+            <p>STEM impact congress</p>
+          </div>
+        </div>
+        <div class="past-second-activity act">
+          <div class="first-activity-content flex-column-center">
+            <h3>2022</h3>
+            <p>STEM impact congress</p>
+          </div>
+        </div>
+      </div>
+      <hr class="full-horizontal-line" />
+    </section>
+    <footer class="footer flex-column-center" id="contact">
+      <h3 class="contact light-black heading-medium">Contact</h3>
+      <hr class="horizontal-line text-center" />
+      <div class="flex-row-center contact-details">
+        <img
+          src="./Assets/images/university of nairobi logo.PNG"
+          alt="university of Nairobi logo"
+          class="uon-logo"
+        />
+        <div class="adress">
+          <p class="phone-number"><b>Phone:</b>Tel: (+254-20) 3318262/ (+254-020) 2429997 <br>
+
+            Fax: (+254-20) 245566
+          </p>
+          <p class="adress-details">
+            <b>Adress:</b> University of Nairobi <br>
+            P.O.Box 30197, GPO, Nairobi, Kenya <br>    
+            Twitter:  @uonbi
+          </p>
+        </div>
+      </div>
+      <p class="rights"><i class="far fa-copyright"></i>2023. All rights reserved</p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
+

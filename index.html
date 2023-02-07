@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="./utils/images/logo.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STEM Impact Congress - 2023</title>
+    <meta name="keywords" content="html, css, javascript" />
+    <meta
+      name="description"
+      content="STEM Impact Congress - 2023"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700;800;900&display=swap"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="flex-column-center">
+    <div class="upperside">
+      <ul class="upperside-ul">
+        <li><i class="fab fa-facebook-f light-grey upperside-item"></i></li>
+        <li><i class="fab fa-twitter light-grey upperside-item"></i></li>
+        <li><a href="#" class="logout light-grey upperside-item">Logout</a></li>
+        <li><a href="#" class="mypage light-grey upperside-item">Mypage</a></li>
+        <li><a href="#" class="korean light-grey upperside-item">English</a></li>
+      </ul>
+    </div>
+    <header class="bg-light-grey flex-column-center">
+      <nav>
+        <div class="nav-bg"></div>
+        <div class="light-black hamburger-menu-display" onclick="openNav()">
+          <i class="fas fa-bars hamburger-menu"></i>
+        </div>
+        <div id="myNav" class="overlay bg-light-black">
+          <a href="#" class="closebtn" onclick="closeNav()"
+            >&times;</a>
+          <div class="overlay-content">
+            <a href="./about.html">About</a>
+            <a href="#main-program" onclick="closeNav()">Main Program</a>
+            <a href="#speakers" onclick="closeNav()">Speakers</a>
+            <a href="#partners" onclick="closeNav()">Partners</a>
+            <a href="#" onclick="closeNav()">Join the Program</a>
+            <a href="#contact" onclick="closeNav()">Contact</a>
+          </div>
+        </div>
+        <div class="desktop-navbar">
+          <a href="./index.html" class="main-logo"
+            ><img
+              src="./Assets/images/Stem logo.png"
+              alt="main logo"
+              class="main-logo-img"
+          /></a>
+          <ul class="navbar-ul">
+            <li><a href="./about.html" class="desktop-nav-link">About</a></li>
+            <li>
+              <a href="#main-program" class="desktop-nav-link">Main Program</a>
+            </li>
+            <li><a href="#speakers" class="desktop-nav-link">Speakers</a></li>
+            <li><a href="#partners" class="desktop-nav-link">Partners</a></li>
+            <li><a href="#" class="desktop-nav-link">Join the Program</a></li>
+            <li><a href="#contact" class="desktop-nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <img
+          src="./Assets/images/wallpaperbetter.jpg"
+          alt="Background image"
+          class="bg-header-image"
+        />
+        <img
+          src="./Assets/images/wallpaperbetter.jpg"
+          alt="Background image"
+          class="bg-header-image-rotate"
+        />
+        <div class="main-content">
+          <div class="main-content-headers">
+            <h2 class="special-color">"Hello! Sharing world"</h2>
+            <h1 class="special-color">
+              STEM IMPACT CONGRESS
+            </h1>
+            <h3 class="year special-color heading-big">2023</h3>
+          </div>
+          <div class="header-content text-center">
+            <p>
+              The STEM Strategy - helping to empower future generations through science, technology, engineering and mathematics to grow a dynamic, innovative economy.
+            <br>SHARPENING THE FOCUS ON SCHOOL MATHEMATICS.
+            </p>
+          </div>
+          <div class="infos">
+            <h3 class="date light-black heading-medium">
+              2023.02.13(MON) ~ 15(WED)
+            </h3>
+            <p class="location light-black heading-small">
+              @Taifa Hall, University of Nairobi, Nairobi Kenya.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="main-program flex-column-center" id="main-program">
+      <h2 class="main-program-header light-grey heading-medium">
+        Main Program
+      </h2>
+      <hr class="horizontal-line text-center" />
+      <div class="program-items">
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="fas fa-book-reader light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Lecture</h3>
+          <p class="item item-content light-grey">
+            STEM help teach important life skills, like budgeting and handling money. You can integrate mathematical skills into everyday life in a useful way.
+          </p>
+        </article>
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="fab fa-accusoft light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Exhibition</h3>
+          <p class="item item-content light-grey">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            libero sit in necessitatibus, ad sequi?
+          </p>
+        </article>
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="far fa-comments light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Forum</h3>
+          <p class="item item-content light-grey">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            libero sit in necessitatibus, ad sequi?
+          </p>
+        </article>
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="fas fa-code-branch light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Workshop</h3>
+          <p class="item item-content light-grey">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            libero sit in necessitatibus, ad sequi?
+          </p>
+        </article>
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="fas fa-chart-line light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Ignite</h3>
+          <p class="item item-content light-grey">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            libero sit in necessitatibus, ad sequi?
+          </p>
+        </article>
+      </div>
+      <button type="button" name="join-us" class="btn main-btn">
+        Join the Program
+      </button>
+      <a class="see-program"><u>SEE THE WHOLE PROGRAM</u></a>
+    </section>
+    <section class="featured-speakers flex-column-center" id="speakers">
+      <h2 class="featured-speakers-header light-black heading-medium">
+        Featured Speakers
+      </h2>
+      <hr class="horizontal-line text-center" />
+      <div class="speakers-list"></div>
+      <button
+        type="button"
+        name="join-us"
+        class="btn speakers-btn"
+        onclick="toggleSpeakers()"
+      >
+        MORE <i class="fas fa-angle-down down-arrow"></i>
+      </button>
+    </section>
+    <section class="partners bg-light-black flex-column-center" id="partners">
+      <h2 class="partners-heading light-grey heading-medium">Partners</h2>
+      <hr class="horizontal-line text-center" />
+      <ul class="partners-list flex-row-center">
+        <li class="list-item-container mozilla">
+          <img
+            class="list-item"
+            src="./utils/images/firefox.svg"
+            alt="mozilla"
+          />
+        </li>
+        <li class="list-item-container mozilla">
+          <img
+            class="list-item"
+            src="./utils/images/google-g-2015.svg"
+            alt="mozilla"
+          />
+        </li>
+        <li class="list-item-container mozilla">
+          <img
+            class="list-item"
+            src="./utils/images/facebook-3.svg"
+            alt="mozilla"
+          />
+        </li>
+        <li class="list-item-container mozilla">
+          <img
+            class="list-item"
+            src="./utils/images/tesla-motors.svg"
+            alt="mozilla"
+          />
+        </li>
+        <li class="list-item-container mozilla">
+          <img
+            class="list-item"
+            src="./utils/images/amazon-lightsail.svg"
+            alt="mozilla"
+          />
+        </li>
+      </ul>
+    </section>
+    <footer class="footer flex-column-center" id="contact">
+      <h3 class="contact light-black heading-medium">Contact</h3>
+      <hr class="horizontal-line text-center" />
+      <div class="flex-row-center contact-details">
+        <img
+          src="./Assets/images/university of nairobi logo.PNG"
+          alt="university of Nairobi logo"
+          class="uon-logo"
+        />
+        <div class="adress">
+          <p class="phone-number"><b>Phone:</b>Tel: (+254-20) 3318262/ (+254-020) 2429997 <br>
+
+            Fax: (+254-20) 245566
+          </p>
+          <p class="adress-details">
+            <b>Adress:</b> University of Nairobi <br>
+            P.O.Box 30197, GPO, Nairobi, Kenya <br>    
+            Twitter:  @uonbi
+          </p>
+        </div>
+      </div>
+      <p class="rights"><i class="far fa-copyright"></i>2023. All rights reserved</p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
