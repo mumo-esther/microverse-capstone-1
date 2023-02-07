@@ -101,4 +101,3 @@ I would like to thank all my coding partners who helped me in understanding lint
 
 This project is [MIT](https://github.com/mumo-esther/Desktop-version-Portfolio/blob/main/LICENSE) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
