@@ -347,7 +347,7 @@ nav h2 {
 
 /* Main Program */
 .main-program {
-  background-color: #272a31;
+  background-image: url(./Assets/images/Program-bg.jpg);
   width: 100%;
   height: 100%;
   padding: 5%;
@@ -359,7 +359,7 @@ nav h2 {
 }
 
 .program-item {
-  background-color: #d3d3d317;
+  background-color: #d3d3d30c;
   z-index: -40;
   opacity: 0.7;
   margin: 2% 0;
@@ -372,8 +372,10 @@ nav h2 {
 }
 
 .item-header {
-  width: 28%;
+  font-size: 25px;
+  width: 70%;
   color: #ec5242;
+  font-weight: bolder;
 }
 
 .item-content {
@@ -395,12 +397,6 @@ nav h2 {
   margin-top: 10%;
 }
 
-.featured-speakers {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .speaker-image {
   width: 120px;
   margin: 3%;
@@ -409,6 +405,8 @@ nav h2 {
 
 .speakers-list {
   opacity: 0.8;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
 }
 
 .speaker-heading {
@@ -770,8 +768,8 @@ nav h2 {
   }
 
   .speakers-list {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
     justify-content: center;
     align-items: center;
   }
