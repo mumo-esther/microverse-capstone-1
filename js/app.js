@@ -1,55 +1,55 @@
 const speakers = [
   {
     id: 1,
-    image: './Assets/images/speaker1.png',
+    image: './Assets/images/ryan.png',
     name: 'Augusta Ada King',
     organization: 'Counter of Lovelace and Mathematician',
     background:
-      'Lorem ipsum, dolor sit amet adipisicing elit. Deleniti, molestias.',
+      'Augusta has completed his Bachelor\'s degree in Civil Engineering in University of the Philippines',
   },
   {
     id: 2,
     image:
-    './Assets/images/speaker3.png',
+    './Assets/images/julia.png',
     name: 'Rear Admiral Grace Hopper',
     organization: 'Internet Pioneer',
     background:
-      'Lorem ipsum, dolor sit amet adipisicing elit. Deleniti, molestias.',
+      'Admiral. He has started his coding journey end of January 2022 and was accepted as a full-time Microverse student mid of March of that year.',
   },
   {
     id: 3,
     image:
-    './Assets/images/speaker2.png',
+    './Assets/images/kilnam.png',
     name: 'Rebecca Cole',
     organization: 'NASA Space Scientist',
     background:
-      'Lorem ipsum, dolor sit amet adipisicing elit. Deleniti, molestias.',
+      'As the main venue for new media art production in Korea Nabi promotes cross-disciplinary collaboration and understanding among science technology humanities and the arts.',
   },
   {
     id: 4,
-    image: './Assets/images/speaker4.png',
+    image: './Assets/images/lila.png',
     name: 'Radia Perlman',
     organization: 'MD',
     background:
-      'Lorem ipsum, dolor sit amet adipisicing elit. Deleniti, molestias.',
+    'Ryan had been leading open-source projects at the Mozilla Foundation such as the open source movement.',
   },
   {
     id: 5,
     image:
-    './Assets/images/speaker5.png',
+    './Assets/images/yokai.png',
     name: 'Katherine Johnson',
     organization: 'Inventor and Computer Scientist',
     background:
-      'Lorem ipsum, dolor sit amet adipisicing elit. Deleniti, molestias.',
+      'Katherine Johnson is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia.',
   },
   {
     id: 6,
     image:
-    './Assets/images/speaker6.png',
+    './Assets/images/sohyeong.png',
     name: 'Florence Nightngale',
     organization: 'Social Reformer and Mathematician',
     background:
-      'Lorem ipsum, dolor sit amet adipisicing elit. Deleniti, molestias.',
+      'Florence Nightngale is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languages and used by nearly half a billion people around the world every month.',
   },
 ];
 

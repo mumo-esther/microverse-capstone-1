@@ -32,6 +32,13 @@ The website content is fictional. It was created using HTML, CSS and JavaScript 
 
 It is built as a part of Microverse Web Developer Course. The mobile-first approach was used in this project.
 
+**Live Demo**
+https://mumo-esther.github.io/microverse-capstone-1/
+
+
+## Link to my project documentation loom video
+https://www.loom.com/share/20ef59cdf1e945a3aa2542c5857ed111
+
 ## 🛠 Built With <a name="built-with"></a>
 Html <br>
 css <br>
@@ -39,12 +46,9 @@ Js <br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Link to online version of My Portfolio**
-https://mumo-esther.github.io/Desktop-version-Portfolio/
-
 ## 💻 Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
-Git clone https://github.com/mumo-esther/Desktop-version-Portfolio.git
+Git clone https://github.com/mumo-esther/microverse-capstone-1.git
 ### Prerequisites
 
 In order to run this project you need:
@@ -54,14 +58,14 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
   cd my-folder
-  git clone https://github.com/mumo-esther/Desktop-version-Portfolio.git
+  git clone https://github.com/mumo-esther/microverse-capstone-1.git
 
 
 ### Run tests
 
 To run tests, run the following command:
   - npx hint .
---->
+  - npx eslint .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,8 +96,8 @@ If you like this project you can give it a ⭐️.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank all my coding partners who helped me in understanding linters
+I would like to acknowledge https://www.behance.net/adagio07 Cindy Shin who is the owner of the original design.
+I would like to thank all my coding partners who helped me in coming up with this webpage.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,4 +105,3 @@ I would like to thank all my coding partners who helped me in understanding lint
 
 This project is [MIT](https://github.com/mumo-esther/Desktop-version-Portfolio/blob/main/LICENSE) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
