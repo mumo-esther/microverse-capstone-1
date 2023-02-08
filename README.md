@@ -32,15 +32,19 @@ The website content is fictional. It was created using HTML, CSS and JavaScript 
 
 It is built as a part of Microverse Web Developer Course. The mobile-first approach was used in this project.
 
+**Live Demo**
+https://mumo-esther.github.io/microverse-capstone-1/
+
+
+## Link to my project documentation loom video
+https://www.loom.com/share/20ef59cdf1e945a3aa2542c5857ed111
+
 ## 🛠 Built With <a name="built-with"></a>
 Html <br>
 css <br>
 Js <br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-**Live Demo**
-https://mumo-esther.github.io/microverse-capstone-1/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
