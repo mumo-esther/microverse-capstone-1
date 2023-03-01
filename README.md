@@ -25,7 +25,7 @@
 
 
 # Microverse HTML, CSS, JS Capstone Project
-"This website is an announcement for the upcoming congress. The congress will be held within Yıldız Technical University Technology Club. General information about the club and the conference is given throughout the site. Speakers are introduced in a separate section. In addition, a form page is defined for participants who want to buy tickets."
+"This website is an announcement for the upcoming congress. The congress will be held within The University of Nairobi. General information about the club and the conference is given throughout the site. Speakers are introduced in a separate section. In addition, a form page is defined for participants who want to buy tickets."
 
 The website content is fictional. It was created using HTML, CSS and JavaScript to meet the requirements defined within the scope of the Microverse Capstone project. In particular, I would like to point out that I built this website completely from scratch.
 
